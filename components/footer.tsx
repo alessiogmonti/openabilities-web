@@ -1,5 +1,5 @@
-import { Camera } from "lucide-react"
-import Link from "next/link"
+import { Camera } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-lg font-semibold">
               <Camera className="h-5 w-5" />
-              <span>SmartGlove</span>
+              <span>OpenAbilities</span>
             </div>
             <p className="text-sm text-muted-foreground text-pretty leading-relaxed">
               Revolutionizing assistive technology with AI-powered vision.
@@ -22,21 +22,21 @@ export function Footer() {
               <li>
                 <Link
                   href="#features"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Features
                 </Link>
               </li>
               <li>
                 <Link
                   href="#technology"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Technology
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Pricing
                 </Link>
               </li>
@@ -47,17 +47,23 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Investors
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Careers
                 </Link>
               </li>
@@ -68,17 +74,23 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Privacy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Terms
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="#"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Contact
                 </Link>
               </li>
@@ -87,20 +99,28 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border/40 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 SmartGlove. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">
+            © 2025 OpenAbilities. All rights reserved.
+          </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Twitter
             </Link>
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               LinkedIn
             </Link>
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               GitHub
             </Link>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
