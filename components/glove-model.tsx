@@ -16,7 +16,13 @@ function GloveModel3D() {
   const { scene } = useGLTF(
     "https://firebasestorage.googleapis.com/v0/b/flowai-48928.firebasestorage.app/o/glove.glb?alt=media&token=b5b21b06-7f80-47f6-bd80-060f5a6cc2d9"
   );
-  return <primitive object={scene} rotation={[Math.PI, 0, 0]} />;
+  return (
+    <primitive
+      object={scene}
+      rotation={[Math.PI, 0, 0]}
+      position={[0, 1.5, 0]}
+    />
+  );
 }
 
 function ModelLoader() {
