@@ -3,7 +3,7 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
-  OrbitControls,
+  OrbitContr
   PerspectiveCamera,
   Environment,
   Html,

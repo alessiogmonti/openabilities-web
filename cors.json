@@ -1,0 +1,19 @@
+[
+  {
+    "origin": [
+      "http://localhost:3000",
+      "https://localhost:3000",
+      "https://openabilities-web.vercel.app",
+      "https://*.vercel.app"
+    ],
+    "method": ["GET", "HEAD"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": [
+      "Content-Type",
+      "Authorization",
+      "Content-Length",
+      "Accept-Encoding",
+      "X-CSRF-Token"
+    ]
+  }
+]
